@@ -14,11 +14,11 @@ essa solução será comparada com uma versão que usa o TAD Pilha).
 ## Atividade
 Declare uma classe Java chamada Palindromo (arquivo Palindromo.java) que possui um atributo privado chamado texto, do tipo String, e os seguintes métodos públicos:
 ### MÉTODO DESCRIÇÃO
-Construtor sem parâmetro. | Define que o atributo texto é uma string vazia ("").
-Construtor que recebe um parâmetro do tipo String. | O valor do parâmetro é atribuído ao atributo texto.
-"Getter" para o atributo texto. | Retorna o valor do atributo texto.
-"Setter" para o atributo texto. | Altera o valor do atributo texto de acordo com o parâmetro passado ao método. Esse método deve validar o parâmetro com a seguinte regra: não deve ser permitido passar o valor null para o parâmetro.
-verificar() | Verifica se o atributo texto armazena um texto que é palíndromo. Em caso positivo, retorna true. Em caso negativo, retorna false.
+- Construtor sem parâmetro. | Define que o atributo texto é uma string vazia ("").
+- Construtor que recebe um parâmetro do tipo String. | O valor do parâmetro é atribuído ao atributo texto.
+- "Getter" para o atributo texto. | Retorna o valor do atributo texto.
+- "Setter" para o atributo texto. | Altera o valor do atributo texto de acordo com o parâmetro passado ao método. Esse método deve validar o parâmetro com a seguinte regra: não deve ser permitido passar o valor null para o parâmetro.
+- verificar() | Verifica se o atributo texto armazena um texto que é palíndromo. Em caso positivo, retorna true. Em caso negativo, retorna false.
 *Atenção quanto às restrições de implementação da classe Palindromo:
 § A verificação de palíndromo não deve usar pilha(s).
 § Não devem existir chamadas à System.out.print*() nos métodos da classe Palindromo.
